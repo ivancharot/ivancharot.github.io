@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Татууууууу</title>
+        <meta name="description" content="Тату салон">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Great+Vibes|Lato" rel="stylesheet">               
+    </head>
+    <body>
+      <div class='main container'>
+          <div class='head container'>
+              <div class='phone'>+375292785624</div>
+              <div class='logo'>Tat<span class=anim>oo</span><br><span class=anim>S</span>tudio</div>
+              <div class='social'>
+           <svg width=100 height=50 xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+               <use xlink:href='svgsprite.svg#vk' x=0 y=0 />
+               </svg> 
+              </div>
+          </div>
+          <div class='menu container'>
+              <ul>
+                 <li><a href='index.html'>Главная</a></li>
+                  <li><a href='artists.html'>О нас</a></li>
+                  <li><a href='#'>Галлерея</a></li>
+                  <li><a href='blog.html'>Блог</a></li>
+              </ul>
+          </div>
+          <div class='gallery'>
+            <div id="quad">
+ 
+                <figure>
+                    <img src="images/jobs/bro.jpg" alt="тату дружба">
+                    <figcaption>&#171;Дружба&#187; &copy;Арсений</figcaption>
+                </figure>
+ 
+                <figure>
+                    <img src="images/jobs/evil.jpg" alt='тату,добро и зло'>
+                    <figcaption>&#171;Добро и зло&#187; &copy;Денис</figcaption>
+                </figure>
+ 
+                <figure>
+                    <img src="images/jobs/golova.jpg" alt='тату на макушке'>
+                    <figcaption>&#171;Икона&#187; &copy;Денис</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/jobs/hands.jpg" alt='красота на руках'>
+                    <figcaption>&#171;Руки-загребуки&#187; &copy;Денис</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/jobs/lion.jpg" alt="оскал льва">
+                    <figcaption>&#171;Оскал льва&#187; &copy;Андрей</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/pendu.jpg" alt="исторические мотивы">
+                    <figcaption>&#171;Летопись&#187; &copy;Батырхан</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/renn.jpg" alt="тоска по ренесансу">
+                    <figcaption>&#171;Тоска&#187; &copy;Батырхан</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/sheep.jpg" alt="смерть овечки долли">
+                    <figcaption>&#171;Овечка Долли&#187; &copy;Андрей</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/skbig.jpg" alt="череп на всю спину">
+                    <figcaption>&#171;Злая спина&#187; &copy;Арсений</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/skull.jpg" alt="череп на ноге">
+                    <figcaption>&#171;Череп&#187; &copy;<Арсений/figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/spider.jpg" alt="паук на шее">
+                    <figcaption>&#171;Почти классика&#187; &copy;Андрей</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/swars.jpg" alt="звёздные войны">
+                    <figcaption>&#171;Лукасу привет&#187; &copy;Денис</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/ufo.jpg" alt="НЛО на руке">
+                    <figcaption>&#171;Их файлы&#187; &copy;Батырхан</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/ufo2.jpg" alt="НЛО в деревне">
+                    <figcaption>&#171;Галактика&#187; &copy;Денис</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/jobs/wolf.jpg" alt="розовый волк">
+                    <figcaption>&#171;Добрый волк&#187; &copy;Андрей</figcaption>
+                </figure>
+
+
+              </div>
+          </div>
+
+          <script>
+var quadimages = document.querySelectorAll("#quad figure");
+for(i=0; i<quadimages.length; i++) {
+  quadimages[i].addEventListener('click', function(){ this.classList.toggle("expanded"); quad.classList.toggle("full") }); 
+}
+
+          </script>
+          <div class='welcome container'>
+              
+          </div>
+      </div>
+    </body>
+</html>

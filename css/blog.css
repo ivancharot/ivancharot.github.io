@@ -1,0 +1,17 @@
+.blog{
+    background-color: beige;
+    color:#191919;
+    padding: 20px 30px;
+}
+.news {
+    
+}
+.blog img {
+    max-width: 25%;
+    float:left;
+    padding-right: 20px;
+}
+
+time {
+    font-size: .7em;
+}
