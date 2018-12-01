@@ -7,6 +7,16 @@ body {
 .container {
     display: flex;
 }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+
 .main {
     width:70%;
     margin:0 auto;
@@ -20,7 +30,7 @@ body {
     align-items: center;
 }
 .head div {
-    margin-top: 15px;
+  margin-top: 15px;
   text-align:center;
   flex-grow: 1;
 }
@@ -60,7 +70,7 @@ body {
     position: relative;
 }
 adress {
-    padding-top: 4em;
+    
     justify-content: space-around;
     flex-grow: 1;
     background:#191919;
@@ -79,3 +89,8 @@ adress {
     opacity:0.4; text-shadow: none; 
   }
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Infant|Great+Vibes|Lato');
+    
+    @media all and (max-width: 800px) {
+        .main { width:100%;}
+        
+    }
