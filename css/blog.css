@@ -15,3 +15,12 @@
 time {
     font-size: .7em;
 }
+
+.expanda {
+ text-decoration: none;   
+    color: coral;
+}
+.expanda:hover{
+    color: crimson;
+    transition-duration: .5s;
+}
