@@ -1,11 +1,12 @@
+*{transition:.3s;}
 body {
-    background-color: black;
-    
+    background-image: url(/images/bg/bloom.png) repeat;
     color: whitesmoke;
     padding: 15px;
 }
 .container {
     display: flex;
+    border-radius: 5px;
 }
 .icon {
   display: inline-block;
@@ -18,11 +19,13 @@ body {
 
 
 .main {
-    width:70%;
+    width: 70%;
+    max-width: 1000px;
+    background-color: #191919;
     margin:0 auto;
     flex-direction: column;
-    box-shadow: 0px 0px 45px 5px rgba(245,245,220,0.2);
-    border-radius: 5px;
+    box-shadow: 0px 0px 45px 2px rgba(245,245,220,0.2);
+    border: 1px solid transparent;
 }
 .head {
     background:#191919;
@@ -35,7 +38,7 @@ body {
   flex-grow: 1;
 }
 .logo {
-    
+    padding-top: 10px;
     font-family: Great Vibes, cursive; 
     color: whitesmoke; 
     font-size: 6em; 
@@ -47,21 +50,24 @@ body {
 }
 .menu {
     background: #191919;
-    flex-direction: row;
-    justify-content: space-around;
+    display:flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .menu ul {
     list-style: none;
     font-family: 'Cormorant Infant', serif;
-    font-size: 2em;
-    text-shadow: 0 0 80px red
+    font-size: 1.5em;
+    text-shadow: 0 0 80px red;
+
 }
 .menu ul li:hover{
     opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
     transition: .3s;
 }
 .menu ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 2em;
 }
 .slider {
@@ -70,17 +76,48 @@ body {
     position: relative;
 }
 adress {
-    
-    justify-content: space-around;
-    flex-grow: 1;
     background:#191919;
-    background-image: url(/skbg.png);
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1ex;
+}
+adress p{
+    margin:0 1em;
 }
 .logo {
   animation: lower 10s linear infinite;
 }
+
+    @media all and (max-width: 1100px) {
+        .main { width:90%;}
+        .menu ul { font-size: 1em;}
+        
+    }
+
+    @media all and (max-width: 830px) {
+        .main { width:90%;}
+        .head {flex-direction: column;}
+        .logo{order: 1;}
+        .social {order:2;}
+        .phone {order:3; font-size: 1ex;}
+}
+        
+  @media all and (max-width: 441px) {
+        .main { width:100%;
+            order:1; }
+      .content {
+          order:2;
+      }
+      .menu {
+          order:3;
+      }
+      adress {
+          order:4;
+      }
+}
+
 @keyframes lower {
   0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
     opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
@@ -90,7 +127,3 @@ adress {
   }
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Infant|Great+Vibes|Lato');
     
-    @media all and (max-width: 800px) {
-        .main { width:100%;}
-        
-    }

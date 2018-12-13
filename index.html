@@ -8,7 +8,15 @@
         <title>Татууууууу</title>
         <meta name="description" content="Тату салон">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/mainslider.css">
+        <link rel="stylesheet" href="blueberry.css" />
+        <link rel="stylesheet" href="css/slide.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="jquery.blueberry.js"></script>
+        <script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+        </script>
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Great+Vibes|Lato" rel="stylesheet">
     </head>
     <body>
@@ -37,7 +45,7 @@
       <div class='main container'>
           <div class='head container'>
               <div class='phone'><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg>+375292785624</div>
-              <div class='logo'>Tat<span class=anim>oo</span><br><span class=anim>S</span>tudio</div>
+              <div class='logo'>Tat<span class=anim>too</span> <span class=anim>S</span>tudio</div>
               <div class='social'>
            <svg class="icon icon-facebook2"><use xlink:href="#icon-facebook2"></use></svg>
                   <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
@@ -52,50 +60,19 @@
                   <li><a href='blog.html'>Блог</a></li>
               </ul>
           </div>
-          <div class='slider'><ul class="slides">
-    <input type="radio" name="radio-btn" id="img-1" checked />
-    <li class="slide-container">
-		<div class="slide">
-              <p><span class='about'>Новый</span> тату-мастер <br>Свежие <span class='about'>идеи</span> и <span class='about'>техники</span></p>
-			<a href='artists.html'><img src="images/artists/den.jpg" alt='Мастер Денис'/></a>
-        </div>
-      
-		<div class="nav">
-			<label for="img-3" class="prev">&#x2039;</label>
-			<label for="img-2" class="next">&#x203a;</label>
-		</div>
-    </li>
+               
+    <div class="blueberry content">
+      <ul class="slides">
+        <li><a href='artists.html'><img src="images/slide/artslide.jpg" /><p>Новый мастер! Свежие идеи!</p></a></li>
+        <li><a href="gallery.html"><img src="images/slide/slidegal.jpg" /><p>Свежие работы в галлерее!</p></a></li>
+        <li><a href="blog.html"><img src="images/slide/blogslide.jpg" /><p>Татуировки и возраст</p></a></li>
+      </ul>
+    </div>
+          
 
-    <input type="radio" name="radio-btn" id="img-2" />
-    <li class="slide-container">
-        <div class="slide">
-            <p>Наши <span class='about'>последние<br> работы</span> доступны для просмотра<br> в <span class='about'>галлерее</span></p>
-          <a href='gallery.html'><img src="images/jobs/bro.jpg" alt='Тату на голове' /></a>
-        </div>
-		<div class="nav">
-			<label for="img-1" class="prev">&#x2039;</label>
-			<label for="img-3" class="next">&#x203a;</label>
-		</div>
-    </li>
+		<script>
 
-    <input type="radio" name="radio-btn" id="img-3" />
-    <li class="slide-container">
-        <div class="slide">
-            <p><span class='about'>Тату и возраст</span><br>Читайте материал в нашем <span class='about'>блоге</span></p>
-          <a href='blog.html'><img src="images/articles/grandpa.jpg" /></a>
-        </div>
-		<div class="nav">
-			<label for="img-2" class="prev">&#x2039;</label>
-			<label for="img-1" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <li class="nav-dots">
-      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-    </li>
-</ul></div>
+		</script>
           <adress style='padding-top: 4em;'>
              <p>Наши салоны находятся по адресу: </p>
              <p>МИНСК <br>ул.Харьковская д.74 <br>ул.Бирюзова д.9</p>

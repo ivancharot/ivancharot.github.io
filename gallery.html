@@ -7,6 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Татууууууу</title>
         <meta name="description" content="Тату салон">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="supmat/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.lightbox-0.5.js"></script>
+        
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/gallery.css">
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Great+Vibes|Lato" rel="stylesheet">               
@@ -37,7 +43,7 @@
       <div class='main container'>
           <div class='head container'>
               <div class='phone'><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg>+375292785624</div>
-              <div class='logo'>Tat<span class=anim>oo</span><br><span class=anim>S</span>tudio</div>
+              <div class='logo'>Tat<span class=anim>too</span> <span class=anim>S</span>tudio</div>
               <div class='social'>
            <svg class="icon icon-facebook2"><use xlink:href="#icon-facebook2"></use></svg>
                   <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
@@ -52,95 +58,122 @@
                   <li><a href='blog.html'>Блог</a></li>
               </ul>
           </div>
-          <div class='gallery'>
-            <div id="quad">
+          <div class='gallery content'>
+            
  
-                <figure>
-                    <img src="images/jobs/bro.jpg" alt="тату дружба">
-                    <figcaption>&#171;Дружба&#187; &copy;Арсений</figcaption>
-                </figure>
- 
-                <figure>
-                    <img src="images/jobs/evil.jpg" alt='тату,добро и зло'>
-                    <figcaption>&#171;Добро и зло&#187; &copy;Денис</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/bro.jpg" data-lightbox="roadtrip" title="&#171;Дружба&#187; &copy;Арсений">
+                    <img src="images/jobs/bro-min.jpg" alt="тату дружба">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
  
-                <figure>
-                    <img src="images/jobs/golova.jpg" alt='тату на макушке'>
-                    <figcaption>&#171;Икона&#187; &copy;Денис</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/evil.jpg" data-lightbox="roadtrip" title="&#171;Добро и зло&#187; &copy;Денис">
+                    <img src="images/jobs/evil-min.jpg" alt='тату,добро и зло'>
+                        </a>
+                    <figcaption></figcaption>
+                </figure>
+ 
+                <figure class="photo">
+                    <a href="images/jobs/golova.jpg" data-lightbox="roadtrip" title="&#171;Икона&#187; &copy;Денис">
+                    <img src="images/jobs/golova-min.jpg" alt='тату на макушке'>
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
 
-                <figure>
-                    <img src="images/jobs/hands.jpg" alt='красота на руках'>
-                    <figcaption>&#171;Руки-загребуки&#187; &copy;Денис</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/hands.jpg" data-lightbox="roadtrip" title="&#171;Руки-загребуки&#187; &copy;Денис">
+                    <img src="images/jobs/hands-min.jpg" alt='красота на руках'>
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
 
-                <figure>
-                    <img src="images/jobs/lion.jpg" alt="оскал льва">
-                    <figcaption>&#171;Оскал льва&#187; &copy;Андрей</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/lion.jpg" data-lightbox="roadtrip" title="&#171;Оскал льва&#187; &copy;Андрей">
+                    <img src="images/jobs/lion-min.jpg" alt="оскал льва">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/pendu.jpg" alt="исторические мотивы">
-                    <figcaption>&#171;Летопись&#187; &copy;Батырхан</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/pendu.jpg" data-lightbox="roadtrip" title="&#171;Летопись&#187; &copy;Батырхан">
+                    <img src="images/jobs/pendu-min.jpg" alt="исторические мотивы">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/renn.jpg" alt="тоска по ренесансу">
-                    <figcaption>&#171;Тоска&#187; &copy;Батырхан</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/renn.jpg" data-lightbox="roadtrip" title="&#171;Тоска&#187; &copy;Батырхан">
+                    <img src="images/jobs/renn-min.jpg" alt="тоска по ренесансу">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/sheep.jpg" alt="смерть овечки долли">
-                    <figcaption>&#171;Овечка Долли&#187; &copy;Андрей</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/sheep.jpg" data-lightbox="roadtrip" title="&#171;Овечка Долли&#187; &copy;Андрей">
+                    <img src="images/jobs/sheep-min.jpg" alt="смерть овечки долли">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/skbig.jpg" alt="череп на всю спину">
-                    <figcaption>&#171;Злая спина&#187; &copy;Арсений</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/skbig.jpg" data-lightbox="roadtrip" title="&#171;Злая спина&#187; &copy;Арсений">
+                    <img src="images/jobs/skbig-min.jpg" alt="череп на всю спину">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/skull.jpg" alt="череп на ноге">
-                    <figcaption>&#171;Череп&#187; &copy;Арсений</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/skull.jpg" data-lightbox="roadtrip" title="&#171;Череп&#187; &copy;Арсений">
+                    <img src="images/jobs/skull-min.jpg" alt="череп на ноге">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/spider.jpg" alt="паук на шее">
-                    <figcaption>&#171;Почти классика&#187; &copy;Андрей</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/spider.jpg" data-lightbox="roadtrip" title="&#171;Почти классика&#187; &copy;Андрей">
+                    <img src="images/jobs/spider-min.jpg" alt="паук на шее">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/swars.jpg" alt="звёздные войны">
-                    <figcaption>&#171;Лукасу привет&#187; &copy;Денис</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/swars.jpg" data-lightbox="roadtrip" title="&#171;Лукасу привет&#187; &copy;Денис">
+                    <img src="images/jobs/swars-min.jpg" alt="звёздные войны">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/ufo.jpg" alt="НЛО на руке">
-                    <figcaption>&#171;Их файлы&#187; &copy;Батырхан</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/ufo.jpg" data-lightbox="roadtrip" title="&#171;Их файлы&#187; &copy;Батырхан">
+                    <img src="images/jobs/ufo-min.jpg" alt="НЛО на руке">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/ufo2.jpg" alt="НЛО в деревне">
-                    <figcaption>&#171;Галактика&#187; &copy;Денис</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/ufo2.jpg" data-lightbox="roadtrip" title="&#171;Галактика&#187; &copy;Денис">
+                    <img src="images/jobs/ufo2-min.jpg" alt="НЛО в деревне">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
                 
-                <figure>
-                    <img src="images/jobs/wolf.jpg" alt="розовый волк">
-                    <figcaption>&#171;Добрый волк&#187; &copy;Андрей</figcaption>
+                <figure class="photo">
+                    <a href="images/jobs/wolf.jpg" data-lightbox="roadtrip" title="&#171;Добрый волк&#187; &copy;Андрей">
+                    <img src="images/jobs/wolf-min.jpg" alt="розовый волк">
+                        </a>
+                    <figcaption></figcaption>
                 </figure>
 
 
-              </div>
+              
           </div>
-
-          <script>
-var quadimages = document.querySelectorAll("#quad figure");
-for(i=0; i<quadimages.length; i++) {
-  quadimages[i].addEventListener('click', function(){ this.classList.toggle("expanded"); quad.classList.toggle("full") }); 
-}
-
-          </script>
+<script type="text/javascript">
+jQuery(function(){
+	jQuery(".photo a").lightBox();
+});
+</script>
           <adress>
              <p>Наши салоны находятся по адресу: </p>
              <p>МИНСК <br>ул.Харьковская д.74 <br>ул.Бирюзова д.9</p>
