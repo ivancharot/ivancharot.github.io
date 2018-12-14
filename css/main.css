@@ -81,11 +81,11 @@ body {
     position: relative;
 }
 adress {
-    padding-top: 4em;
+    padding: 4ex;
     background:#191919;
     display:flex;
-    align-content: space-between;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-around;
     flex-wrap: wrap;
     font-size: 1ex;
 }
@@ -119,11 +119,14 @@ adress p{
       .content {
           order:2;
       }
-      .menu {
+      .otzyv{
           order:3;
       }
-      adress {
+      .menu {
           order:4;
+      }
+      adress {
+          order:5;
       }
 }
 
