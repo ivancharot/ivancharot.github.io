@@ -80,7 +80,7 @@ body {
     background-color: #191919;
     position: relative;
 }
-adress {
+.adres {
     padding: 4ex;
     background:#191919;
     display:flex;
@@ -89,7 +89,7 @@ adress {
     flex-wrap: wrap;
     font-size: 12px;
 }
-adress p{
+.adres p{
     margin:0 1em;
 }
 .logo {
@@ -125,12 +125,12 @@ adress p{
       .menu {
           order:4;
       }
-      adress {
+      .adres {
           order:5;
       }
       .menu ul li {
-      margin-right: 1.2em;
-}
+      margin-right: 1.2em;}
+
 }
 
 @keyframes lower {
