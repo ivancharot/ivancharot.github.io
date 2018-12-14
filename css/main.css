@@ -68,8 +68,8 @@ body {
 
 }
 .menu ul li:hover{
-    opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
-    transition: .3s;
+    opacity:0.3; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+    transition: .1s;
 }
 .menu ul li {
     display: inline-block;
@@ -87,7 +87,7 @@ adress {
     align-items: stretch;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 1ex;
+    font-size: 12px;
 }
 adress p{
     margin:0 1em;
@@ -128,6 +128,9 @@ adress p{
       adress {
           order:5;
       }
+      .menu ul li {
+      margin-right: 1.2em;
+}
 }
 
 @keyframes lower {

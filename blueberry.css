@@ -91,7 +91,7 @@ transform: skewY(-3deg);
 
 .slides li a p {
     position: absolute;
-    top: 25%;
+    top: -5%;
     left:20%;
     color: whitesmoke;
     transform: skewY(3deg);
@@ -106,22 +106,22 @@ transform: skewY(-3deg);
 
     @media all and (max-width: 650px) {
         .slides li a p {
-    top: 15%;
+    top: -5%;
     left:15%;
     color: whitesmoke;
     transform: skewY(3deg);
-    font-size: 1.5em;
+    font-size: 1em;
  font-family: 'Cormorant Infant', serif;}
 }
         
   @media all and (max-width: 441px) {
       .slides li a p {
-    top: 15%;
+    top: -5%;
     left:15%;
     color: whitesmoke;
     transform: skewY(3deg);
-    font-size: 1em;
-          font-family: 'Cormorant Infant', serif;}
+    font-size: 1.3em;
+    font-family: 'Cormorant Infant', serif;}
 }.otzyv {
     margin-top:2em;
     padding: 3em;
