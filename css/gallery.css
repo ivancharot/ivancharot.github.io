@@ -1,5 +1,6 @@
 
 .gallery {
+    background-image: url(/images/bg/bloom.png);
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
@@ -16,7 +17,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    border: 10px solid #eee;
+    border: 10px solid beige;
     box-sizing: border-box;
 }
 .photo a:hover {

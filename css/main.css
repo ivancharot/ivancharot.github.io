@@ -1,6 +1,6 @@
 *{transition:.3s;}
 body {
-    background-image: url(/images/bg/bloom.png) repeat;
+    background-image: url(/images/bg/squares.png);
     color: whitesmoke;
     padding: 15px;
 }
@@ -17,6 +17,11 @@ body {
   fill: whitesmoke;
 }
 
+.phone a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: .7em;
+}
 
 .main {
     width: 70%;
@@ -76,6 +81,7 @@ body {
     position: relative;
 }
 adress {
+    padding-top: 4em;
     background:#191919;
     display:flex;
     align-content: space-between;
@@ -102,6 +108,9 @@ adress p{
         .logo{order: 1;}
         .social {order:2;}
         .phone {order:3; font-size: 1ex;}
+        .piki {display: none;
+
+}
 }
         
   @media all and (max-width: 441px) {

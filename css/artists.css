@@ -70,8 +70,8 @@ h3 {
 } 
 
 .accordion-content {
-    background-color: #3e3e3e;
-    color: #f5f2f0;
+    background-image: url(/images/bg/bloom.png);
+    color: #191919;
     height: 202px;
     width: 100%;
     padding: 44px;

@@ -122,4 +122,46 @@ transform: skewY(-3deg);
     transform: skewY(3deg);
     font-size: 1em;
           font-family: 'Cormorant Infant', serif;}
+}.otzyv {
+    margin-top:2em;
+    padding: 3em;
+    background-image: url(images/bg/concrete.png);
+    color: #191919;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+.otzyv div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center;
+    position: relative;
+}
+.otzyv img {
+    display: block;
+    width:5em;
+    height:5em;
+    border-radius:2.5em;
+    overflow: hidden;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    align-self: center;
+    box-shadow: 8px 8px 5px 2px rgba(25,25,25,0.2);
+    
+}
+
+.user {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-style: italic;
+    
+}
+@media all and (max-width: 560px) {
+    .user {
+        position: static;
+    }  
 }
